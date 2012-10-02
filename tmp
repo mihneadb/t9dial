@@ -1,0 +1,5 @@
+user=> (.startsWith "yoMamen" "yoM")
+true
+user=> (for [k1 (t9dialer/keyboard 2) k2 (t9dialer/keyboard 6) k3 (t9dialer/keyboard 2) :let [name (str k1 k2 k3)] :when (= "ana" name)] name)
+("ana")
+
